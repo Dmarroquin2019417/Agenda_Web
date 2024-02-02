@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/favoritos.css"> <!-- Agrega tu hoja de estilos para favoritos -->
+    <title>Página de Favoritos</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <h1>Favoritos</h1>
+    </div>
+
+    <div id="favorites-list">
+        <h2>Listado de Favoritos</h2>
+        <ul>
+            <li class="favorite-item">
+                <img src="../img/contacto.png" alt="Icono Favorito">
+                <button class="redirect" onclick="goToFavoriteContactPage()">Juan Pérez</button>
+            </li>
+            <li class="favorite-item">
+                <img src="../img/contacto.png" alt="Icono Favorito">
+                <button class="redirect" onclick="goToFavoriteContactPage()">Ana Gómez</button>
+            </li>
+        </ul>
+    </div>
+
+    <button onclick="redirectToNewFavorite()">Agregar Nuevo Favorito</button>
+
+    <script src="../scripts/logica.js"></script>
+</body>
+
+</html>

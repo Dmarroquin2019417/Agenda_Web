@@ -13,3 +13,7 @@ function goBackToContacts(){
     window.location.href = "contactos.html"
 }
 
+
+function goToFavoritesPage() {
+    window.location.href = "favortios.html";
+}

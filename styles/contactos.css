@@ -44,6 +44,11 @@ ul {
     margin: 15px 0;
 }
 
+#navbar button {
+    font-size: 12px; 
+    padding: 5px 10px; 
+}
+
 .contact-item img {
     width: 60px; 
     height: 60px;
@@ -79,3 +84,4 @@ button:active {
 button.redirect {
     background-color: #007BFF;
 }
+
