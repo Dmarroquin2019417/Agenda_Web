@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/favoritos.css"> <!-- Agrega tu hoja de estilos para favoritos -->
+    <link rel="stylesheet" href="../styles/favorito.css"> <!-- Agrega tu hoja de estilos para favoritos -->
+
     <title>Página de Favoritos</title>
 </head>
 
@@ -17,17 +18,22 @@
         <h2>Listado de Favoritos</h2>
         <ul>
             <li class="favorite-item">
-                <img src="../img/contacto.png" alt="Icono Favorito">
-                <button class="redirect" onclick="goToFavoriteContactPage()">Juan Pérez</button>
+                <img src="../img/fav3.png" alt="Icono Favorito">
+                <button class="redirect" onclick="goToAddContactPage()">Mario Suyen</button>
             </li>
             <li class="favorite-item">
-                <img src="../img/contacto.png" alt="Icono Favorito">
-                <button class="redirect" onclick="goToFavoriteContactPage()">Ana Gómez</button>
+                <img src="../img/fav2.png" alt="Icono Favorito">
+                <button class="redirect" onclick="goToAddContactPage()">Luciano Maquin</button>
+            </li>
+            <li class="favorite-item">
+                <img src="../img/fav1.png" alt="Icono Favorito">
+                <button class="redirect" onclick="goToAddContactPage()">Liam Morales</button>
             </li>
         </ul>
     </div>
 
     <button onclick="redirectToNewFavorite()">Agregar Nuevo Favorito</button>
+    <button onclick="goBackToContacts()">Volver a la Lista de Contactos</button>
 
     <script src="../scripts/logica.js"></script>
 </body>

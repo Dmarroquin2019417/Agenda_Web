@@ -15,5 +15,10 @@ function goBackToContacts(){
 
 
 function goToFavoritesPage() {
-    window.location.href = "favortios.html";
+    window.location.href = "favoritos.html";
 }
+
+function goToProfilePage() {
+    window.location.href = "Perfildelusuario.html";
+}
+

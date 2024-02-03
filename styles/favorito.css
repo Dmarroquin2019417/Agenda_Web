@@ -11,7 +11,7 @@ body {
 }
 
 #navbar {
-    background-color: #006400; 
+    background-color: #006400;
     width: 100%;
     padding: 15px;
     color: #fff;
@@ -20,10 +20,72 @@ body {
     margin-bottom: 20px;
 }
 
+#favorites-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #ffffff;
+}
+
+h2 {
+    color: #333;
+}
 
 ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
+.favorite-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.favorite-item img {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.redirect {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.redirect:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-size: 18px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200%;
+}
+
+
+
+
+button:hover {
+    background-color: #0056b3;
+}

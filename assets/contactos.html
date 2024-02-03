@@ -10,6 +10,10 @@
 <body>
     <div id="navbar">
         <h1>Contactos</h1>
+        <div id="profile-icon" onclick="goToProfilePage()">
+            <img src="../img/fav4.png"  alt="Perfil del usuario">
+            <span>Perfil del usuario</span>
+        </div>
     </div>
 
     <div id="contacts-list">
@@ -40,6 +44,8 @@
      
     
     <button onclick="redirectToNewContact()">Agregar Nuevo Contacto</button>
+    <button onclick="goToFavoritesPage()">FAVORITOS</button>
+    
 
     <script src="../scripts/logica.js"></script>
 </body>

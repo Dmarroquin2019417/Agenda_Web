@@ -19,10 +19,16 @@
         <input type="email" id="correo" name="correo" required>
         
         <label for="contrasena">Contraseña:</label>
-        <input type="password" id="contrasena" name="contrasena" required>
+        <input type="password" id="contrasena" name="contrasena" required>  <span class="eye-icon" onclick="togglePasswordVisibility()">&#128065;</span>
+       
         
         <button type="submit">Inicio de sesión</button>
       </form>
+      <div id="userProfile" style="display:none;">
+        <h3>Datos del Usuario</h3>
+        <p id="userEmail"></p>
+      </div>
     </div>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
