@@ -1,26 +1,33 @@
+<!-- detallesdelcontacto.html -->
+
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/detallesdelcontacto.css">
     <title>Detalles del Contacto</title>
 </head>
+
 <body>
     <div id="navbar">
         <h1>Detalles del Contacto</h1>
     </div>
 
     <div id="contact-details">
+        
         <ul>
-            <li><strong>Nombre: Diego Armando Marroquin Morales</strong></li>
-            <li><strong>Teléfono: +502 5867 - 3621</strong></li>
-            <li><strong>Correo Electrónico: dmarroquin@gmail.com</strong></li>
+            <li id="contact-name"><strong>Nombre: <span id="contactName"></span></strong></li>
+            <li id="contact-phone"><strong>Teléfono: <span id="contactPhone"></span></strong></li>
+            <li id="contact-email"><strong>Correo Electrónico: <span id="contactEmail"></span></strong></li>
+
         </ul>
     </div>
 
     <button onclick="goBackToContacts()">Volver a la Lista de Contactos</button>
 
-    <script src="../scripts/logica.js"></script>
+    <script src="../scripts/detallesdelcontacto.js"></script>
 </body>
+
 </html>
