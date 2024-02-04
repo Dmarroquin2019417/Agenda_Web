@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/contactos.css">
+    <title>Página de Contactos</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <h1>Contactos</h1>
+        <div id="profile-icon" onclick="goToProfilePage()">
+            <img src="../img/fav4.png" alt="Perfil del usuario">
+            <span>Perfil del usuario</span>  
+        </div>
+        <div id="profile-iconn" onclick="goToProfilesPages()">
+            <img src="../img/tareas.png" alt="ToDolist">
+            <span>ToDolist</span>
+        </div>
+    </div>
+
+    
+
+    <div id="contacts-list">
+        <h2>Listado de Contactos</h2>
+        <ul>
+            <li class="contact-item">
+                <img src="../img/contacto.png" alt="Icono Contacto">
+                <button class="redirect"
+                    onclick="viewContactDetails('Diego Armando Marroquin Morales', '+502 5867 - 3621', 'dmarroquin@gmail.com') ">
+                    Diego Marroquin</button>
+            </li>
+            <li class="contact-item"
+                onclick="viewContactDetails('Mario David Suyen Giron', '+502 8372 - 2345', 'msuyen@gmail.com')">
+                <img src="../img/contacto.png" alt="Icono Contacto">
+                <button class="redirect">Mario Suyen</button>
+            </li>
+            <li class="contact-item"
+                onclick="viewContactDetails('Luciano Antonio Maquin', '+502 2345 - 6787', 'lmaquin@gmail.com')">
+                <img src="../img/contacto.png" alt="Icono Contacto">
+                <button class="redirect">Luciano Maquin</button>
+            </li>
+            <li class="contact-item"
+                onclick="viewContactDetails('Brandom Andres Marroquin', '+502 4532 - 8765', 'bmarroquin@gmail.com')">
+                <img src="../img/contacto.png" alt="Icono Contacto">
+                <button class="redirect">Brandom Marroquin</button>
+            </li>
+            <li class="contact-item"
+                onclick="viewContactDetails('Liam Alejandro Morales Saenz', '+502 3456 - 7898', 'lmorales@gmail.com')">
+                <img src="../img/contacto.png" alt="Icono Contacto">
+                <button class="redirect">Liam Morales</button>
+            </li>
+        </ul>
+    </div>
+
+    <button onclick="redirectToNewContact()">Agregar Nuevo Contacto</button>
+    <button onclick="goToFavoritesPage()">FAVORITOS</button>
+
+    <script src="../scripts/detallesdelcontacto.js"></script>
+    <script src="../scripts/logica.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/todolist.css">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <h1>To-Do List</h1>
+    </div>
+
+    <div id="todo-list">
+        <h2>Listado de Pendientes</h2>
+        <input type="text" id="taskDescription" class="task-input" placeholder="Descripción del Pendiente">
+        <select id="taskPriority" class="task-input">
+            <option value="Seleccione" selected disabled>Prioridad</option>
+            <option value="Alta">Alta</option>
+            <option value="Media">Media</option>
+            <option value="Baja">Baja</option>
+        </select>
+
+        <button onclick="addTask()">Agregar Nuevo Pendiente</button>
+        <ul id="tasks-list">
+        </ul>
+    </div>
+
+    <script src="../scripts/todolist.js"></script>
+</body>
+
+
+
+</html>
