@@ -11,15 +11,29 @@ body {
 }
 
 #navbar {
-    background-color: #006400; 
+    background-color: #006400;
     width: 100%;
     padding: 15px;
     color: #fff;
     text-align: center;
     font-size: 24px;
-    margin-bottom: 20px;
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
+
+#contacts-list {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin-top: 120px; 
+    width: 80%;
+    max-width: 650px;
+}
+
 
 #profile-icon img {
     width: 40px;
@@ -29,18 +43,27 @@ body {
     
 }
 
-
-
-#contacts-list {
-    text-align: center;
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    margin-bottom: 30px;
-    width: 80%; 
-    max-width: 650px; 
+#profile-iconn img {
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    margin-right: 5px;
+    
 }
+
+#profile-icon {
+    display: flex;
+    align-items: center;
+}
+
+#profile-iconn {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+
+
 
 ul {
     list-style: none;

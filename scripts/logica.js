@@ -21,4 +21,9 @@ function goToFavoritesPage() {
 function goToProfilePage() {
     window.location.href = "Perfildelusuario.html";
 }
+function goToProfilesPages() {
+    window.location.href = "ToDolist.html";
+}
+
+
 
